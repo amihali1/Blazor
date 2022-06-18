@@ -1,6 +1,7 @@
 using BlazorEmployeeEF.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+
+builder.Services.AddDbContext<SqlDbContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("SqlDbContext")));
+
+builder.Services.AddServerSideBlazor().AddCircuitOptions(o => o.DetailedErrors = true);
 
 var app = builder.Build();
 

@@ -1,5 +1,6 @@
 ﻿namespace BlazorEmployeeEF.Data
 {
+    // Employee entity with employer specific data
     public class Employee : Entity
     {
         public DateTime StartDate { get; set; }
