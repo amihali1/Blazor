@@ -1,14 +1,14 @@
 using BlazorEmployeeEF.Data;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddHttpClient();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<AppSettingsService>();
 
 builder.Services.AddDbContext<SqlDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("SqlDbContext")));
@@ -38,8 +38,5 @@ app.UseEndpoints(endpoints =>
     endpoints.MapBlazorHub();
     endpoints.MapFallbackToPage("/_Host");
 });
-
-app.MapBlazorHub();
-app.MapFallbackToPage("/_Host");
 
 app.Run();

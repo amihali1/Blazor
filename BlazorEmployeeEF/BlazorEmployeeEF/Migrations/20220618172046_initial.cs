@@ -25,6 +25,9 @@ namespace BlazorEmployeeEF.Migrations
                 {
                     table.PrimaryKey("PK_Employees", x => x.Id);
                 });
+
+            // Adds one example record
+            migrationBuilder.InsertData("Employees", new string[] { "StartDate", "Department", "Position", "Company", "Name" }, new object[] { DateTime.Today, "Example Department", "Example Position", "Example Company", "Example Name" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

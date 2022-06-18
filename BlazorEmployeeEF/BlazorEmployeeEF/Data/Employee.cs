@@ -8,13 +8,13 @@
         public string Position { get; set; }
         public string Company { get; set; }
 
-        public Employee(string name, string department, string position, string company, DateTime? startDate = null)
+        public Employee(string name, string department, string position, string company, DateTime startDate)
         {
             Name = name;
             Department = department;
             Position = position;
             Company = company;
-            StartDate = startDate.HasValue ? startDate.Value : DateTime.Today;
+            StartDate = startDate;
         }
     }
 }

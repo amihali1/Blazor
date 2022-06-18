@@ -1,0 +1,58 @@
+﻿@using BlazorEmployeeEF.Data
+@using Newtonsoft.Json
+
+@page "/listemployees"
+
+@inject AppSettingsService _AppSettingsService
+
+<h3>Employees</h3>
+
+<p>
+    <a href="/addemployee">Create New Employee</a>
+</p>
+
+@if (employees == null)  
+{
+    employees = new List<Employee>();
+}  
+
+<table class='table'>  
+    <thead>  
+        <tr>  
+            <th>Name</th>  
+            <th>Department</th>  
+            <th>Position</th>  
+            <th>Company</th>  
+            <th>Start Date</th>  
+        </tr>  
+    </thead>  
+    <tbody>  
+        @foreach (var employee in employees)  
+        {  
+            <tr>  
+                <td>@employee.Name</td>  
+                <td>@employee.Department</td>  
+                <td>@employee.Position</td>  
+                <td>@employee.Company</td>
+                <td>@employee.StartDate</td>
+                <td>  
+                    <a href='/editemployee/@employee.Id'>Edit</a>  
+                    <a href='/deleteemployee/@employee.Id'>Delete</a>  
+                </td>  
+            </tr>  
+  
+        }  
+    </tbody>  
+</table>   
+
+
+@code {
+    IEnumerable<Employee>? employees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var baseUrl = _AppSettingsService.GetBaseUrl();
+        var httpClient = new HttpClient();
+        employees = await httpClient.GetFromJsonAsync<IEnumerable<Employee>>(baseUrl + "/api/employees");
+    }
+}

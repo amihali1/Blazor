@@ -11,7 +11,7 @@
 
         public string GetBaseUrl()
         {
-            return _configuration.GetValue<string>("Settings").ToString();
+            return _configuration.GetValue<string>("Settings:BaseUrl").ToString();
         }
     }
 }
