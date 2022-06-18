@@ -13,6 +13,7 @@ builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddDbContext<SqlDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("SqlDbContext")));
 
+// Enables detailed error option for Blazor so detailed error messages appear in dev console
 builder.Services.AddServerSideBlazor().AddCircuitOptions(o => o.DetailedErrors = true);
 
 var app = builder.Build();
@@ -30,6 +31,13 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+    endpoints.MapBlazorHub();
+    endpoints.MapFallbackToPage("/_Host");
+});
 
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
