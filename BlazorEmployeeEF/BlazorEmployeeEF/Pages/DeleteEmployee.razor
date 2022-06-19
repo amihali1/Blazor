@@ -1,0 +1,68 @@
+﻿@using BlazorEmployeeEF.Data
+
+@page "/deleteemployee/{id:int}"
+
+@inject NavigationManager _NavigationManager
+@inject AppSettingsService _AppSettingsService
+
+<h3>Delete</h3>
+<p>Are you sure you want to delete this employee with Id: :<b> @id</b></p>
+
+<div class="col-md-4">  
+    <table class="table">  
+        <tr>  
+            <td>Name</td>  
+            <td>@employee.Name</td>  
+        </tr>  
+        <tr>  
+            <td>Department</td>  
+            <td>@employee.Department</td>  
+        </tr>  
+        <tr>  
+            <td>Position</td>  
+            <td>@employee.Position</td>  
+        </tr>  
+        <tr>  
+            <td>Company</td>  
+            <td>@employee.Company</td>  
+        </tr> 
+        <tr>  
+            <td>StartDate</td>  
+            <td>@employee.StartDate</td>  
+        </tr>  
+
+    </table>  
+    <div class="form-group">  
+        <input type="button" value="Delete" @onclick="@Delete" class="btn btn-primary" />  
+        <input type="button" value="Cancel" @onclick="@Cancel" class="btn" />  
+    </div>  
+</div> 
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    string baseUrl;
+    Employee? employee = new Employee(null, null, null, null, DateTime.Today);
+    HttpClient httpClient;
+
+    protected override async Task OnInitializedAsync()
+    {
+        baseUrl = _AppSettingsService.GetBaseUrl();
+        httpClient = new HttpClient();
+        employee = await httpClient.GetFromJsonAsync<Employee>(baseUrl + Constants.EmployeeApiPath + $"/{id}");
+    }
+
+    protected async Task Delete()
+    {
+        var result = await httpClient.DeleteAsync(baseUrl + Constants.EmployeeApiPath + $"/{id}");
+
+        _NavigationManager.NavigateTo("listemployees");
+    }
+
+    void Cancel()
+    {
+        _NavigationManager.NavigateTo("listemployees");
+    }
+
+}

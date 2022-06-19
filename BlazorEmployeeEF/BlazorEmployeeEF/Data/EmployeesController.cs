@@ -24,7 +24,7 @@ namespace BlazorEmployeeEF.Data
         }
 
         // GET api/employees/{id}
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<Employee?> Get(int id)
         {
             if (_dbContext?.Employees?.Any() == true)

@@ -1,0 +1,76 @@
+﻿@using BlazorEmployeeEF.Data;
+
+@page "/editemployee/{id:int}"
+
+@inject AppSettingsService _AppSettingsService
+@inject NavigationManager _NavigationManager
+
+<h3>Edit Employee</h3>
+<hr />
+
+<form>  
+    <div class="row">  
+        <div class="col-md-8">  
+            <div class="form-group">  
+                <label for="Name" class="control-label">Name</label>  
+                <input for="Name" class="form-control" @bind="@employee.Name" />  
+            </div>  
+            <div class="form-group">  
+                <label for="Department" class="control-label">Department</label>  
+                <input for="Department" class="form-control" @bind="@employee.Department" />  
+            </div>  
+            <div class="form-group">  
+                <label for="Position" class="control-label">Position</label>  
+                <input for="Position" class="form-control" @bind="@employee.Position" />  
+            </div>  
+            <div class="form-group">  
+                <label for="Company" class="control-label">Company</label>  
+                <input for="Company" class="form-control" @bind="@employee.Company" />  
+            </div>  
+            <div class="form-group">  
+                <label for="StartDate" class="control-label">Start Date</label>  
+                <input for="StartDate" class="form-control" @bind="@employee.StartDate" />  
+            </div>  
+
+        </div>  
+    </div>  
+    <div class="row">  
+        <div class="col-md-4">  
+            <div class="form-group">  
+                <input type="button" class="btn btn-primary" @onclick="@UpdateEmployee" value="Save" />  
+                <input type="button" class="btn" @onclick="@Cancel" value="Cancel" />  
+            </div>  
+        </div>  
+    </div>  
+</form>  
+
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    Employee? employee = new Employee(null, null, null, null, DateTime.Today);
+    HttpClient httpClient;
+    string baseUrl;
+
+    protected override async Task OnInitializedAsync()  
+    {
+        baseUrl = _AppSettingsService.GetBaseUrl();
+        httpClient = new HttpClient();
+        employee = await httpClient.GetFromJsonAsync<Employee>(baseUrl + Constants.EmployeeApiPath + $"/{id}");
+    }
+
+    protected async Task UpdateEmployee()
+    {
+        if (employee != null)
+        {
+            await httpClient.PutAsJsonAsync<Employee>(baseUrl + Constants.EmployeeApiPath + $"/{id}", employee);
+            _NavigationManager.NavigateTo("listemployees");
+        }        
+    }
+
+    void Cancel()
+    {
+        _NavigationManager.NavigateTo("listemployees");
+    }
+}

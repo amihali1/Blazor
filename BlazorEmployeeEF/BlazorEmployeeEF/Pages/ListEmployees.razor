@@ -53,6 +53,6 @@
     {
         var baseUrl = _AppSettingsService.GetBaseUrl();
         var httpClient = new HttpClient();
-        employees = await httpClient.GetFromJsonAsync<IEnumerable<Employee>>(baseUrl + "/api/employees");
+        employees = await httpClient.GetFromJsonAsync<IEnumerable<Employee>>(baseUrl + Constants.EmployeeApiPath);
     }
 }
