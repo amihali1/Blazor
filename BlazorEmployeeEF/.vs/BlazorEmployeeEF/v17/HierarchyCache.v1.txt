@@ -1,0 +1,191 @@
+﻿++Solution 'BlazorEmployeeEF' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:BlazorEmployeeEF.sln
+++BlazorEmployeeEF
+i:{00000000-0000-0000-0000-000000000000}:BlazorEmployeeEF
+++Connected Services 
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:>324
+++Dependencies
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:>326
+++Properties
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\properties\
+++launchSettings.json
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\properties\launchsettings.json
+++wwwroot
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\
+++css
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font\css\
+++favicon.ico
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\favicon.ico
+++Data
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\
+++Employee.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\employee.cs
+++Entity.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\entity.cs
+++IEntity.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\ientity.cs
+++SqlDbContext.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\sqldbcontext.cs
+++WeatherForecast.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\weatherforecast.cs
+++WeatherForecastService.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\weatherforecastservice.cs
+++Pages
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\
+++_Host.cshtml
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\_host.cshtml
+++_Layout.cshtml
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\_layout.cshtml
+++Counter.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\counter.razor
+++Error.cshtml
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\error.cshtml
+++FetchData.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\fetchdata.razor
+++Index.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\index.razor
+++Shared
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\shared\
+++MainLayout.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\shared\mainlayout.razor
+++NavMenu.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\shared\navmenu.razor
+++SurveyPrompt.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\shared\surveyprompt.razor
+++_Imports.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\_imports.razor
+++App.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\app.razor
+++appsettings.json
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\appsettings.json
+++Program.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\program.cs
+++No service dependencies discovered
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:>325
+++Analyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:analyzers
+++Frameworks
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:frameworks
+++Packages
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:packages
+++bootstrap
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\bootstrap\
+++open-iconic
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\
+++site.css
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\site.css
+++Error.cshtml.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\error.cshtml.cs
+++MainLayout.razor.css
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\shared\mainlayout.razor.css
+++NavMenu.razor.css
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\shared\navmenu.razor.css
+++appsettings.Development.json
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\users\andym\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.6\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.6)
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:>391
+++Microsoft.EntityFrameworkCore.Tools (6.0.6)
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:>393
+++bootstrap.min.css
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\bootstrap\bootstrap.min.css
+++font
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\readme.md
+++bootstrap.min.css.map
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font\fonts\
+++open-iconic-bootstrap.min.css
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+++Migrations
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\migrations\
+++20220618172046_initial.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\migrations\20220618172046_initial.cs
+++SqlDbContextModelSnapshot.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\migrations\sqldbcontextmodelsnapshot.cs
+++20220618172046_initial.Designer.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\migrations\20220618172046_initial.designer.cs
+++EmployeesController.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\employeescontroller.cs
+++AppSettingsService.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\appsettingsservice.cs
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.6)
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:>1048
+++Swashbuckle.AspNetCore (6.3.0)
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:>582
+++MessagePackAnalyzer
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\users\andym\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\users\andym\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\users\andym\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++CreateEmployee.cshtml
+++CreateEmployee.cshtml.cs
+++_ValidationScriptsPartial.cshtml
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\_validationscriptspartial.cshtml
+++EmployeeList.cshtml
+++EmployeeList.cshtml.cs
+++Create.cshtml
+++Create.cshtml.cs
+++Delete.cshtml
+++Delete.cshtml.cs
+++Index.cshtml
+++Index.cshtml.cs
+++Details.cshtml
+++Details.cshtml.cs
+++Edit.cshtml
+++Edit.cshtml.cs
+++ListEmployees.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\listemployees.razor
+++AddEmployee.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\addemployee.razor
+++Constants.cs
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\data\constants.cs
+++EditEmployee.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\editemployee.razor
+++DeleteEmployee.razor
+i:{0ac762b6-819d-42f9-91d3-31c005878c82}:c:\devc#\blazor\blazoremployeeef\blazoremployeeef\pages\deleteemployee.razor

@@ -23,20 +23,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRW1wbG95ZWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DevC\#/Blazor/BlazorEmployeeEF/BlazorEmployeeEF/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/DevC\#/Blazor/BlazorEmployeeEF/BlazorEmployeeEF/Pages/DeleteEmployee.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlRW1wbG95ZWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/DevC\#/Blazor/BlazorEmployeeEF/BlazorEmployeeEF/Pages/EditEmployee.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEVtcGxveWVlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/DevC\#/Blazor/BlazorEmployeeEF/BlazorEmployeeEF/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/DevC\#/Blazor/BlazorEmployeeEF/BlazorEmployeeEF/Pages/Index.razor]
